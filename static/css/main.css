@@ -2,3 +2,16 @@ body {
     margin: 0;
     font-family: sans-serif;
 }
+
+div.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+}
